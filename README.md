@@ -2,8 +2,8 @@
 
 Scripts and data used in analyses for "An amino acid motif in HLA-DRβ1 distinguishes patients with uveitis in juvenile idiopathic arthritis."
 
-Summary-level datasets are available here:
-Phase 1 genome-wide association summary-level results: https://doi.org/10.5281/zenodo.1048977
+Summary-level datasets are available here:   
+Phase 1 genome-wide association summary-level results: https://doi.org/10.5281/zenodo.1048977   
 Phase 2 genome-wide association summary-level results: https://doi.org/10.5281/zenodo.1048979
 
 This repository contains:
