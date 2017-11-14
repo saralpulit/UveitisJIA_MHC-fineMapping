@@ -28,7 +28,7 @@ $impute2 \
     -int "$start"e6 "$stop"e6 \ ## start and stop of the imputation window
     -Ne 20000 \ ## effective sample size; see IMPUTE2 documentation for details
     -use_prephased_g \ ## let IMPUTE2 know you're using phased data
-    -sample_g $home/chr$chr/jia.uviitis.hg19.merge.QC.chr$chr.phased.samples \
+    -sample_g $home/chr$chr/jia.uviitis.hg19.merge.QC.chr$chr.phased.samples \ ## the study samples
     -k_hap 1000 \ ## number of haplotypes to search in imputation; set to roughly the number of European-ancestry haplotypes in 1KG Phase 3
     -buffer 250 \ ## buffer space around the imputation window (in kb)
     -r $home/chr$chr/jia.uviitis.hg19.merge.QC.chr$chr.phased.$start.$stop.log \
