@@ -31,8 +31,8 @@ $impute2 \
     -sample_g $home/chr$chr/jia.uviitis.hg19.merge.QC.chr$chr.phased.samples \ ## the study samples
     -k_hap 1000 \ ## number of haplotypes to search in imputation; set to roughly the number of European-ancestry haplotypes in 1KG Phase 3
     -buffer 250 \ ## buffer space around the imputation window (in kb)
-    -r $home/chr$chr/jia.uviitis.hg19.merge.QC.chr$chr.phased.$start.$stop.log \
-    -o $home/chr$chr/jia.uviitis.hg19.merge.QC.chr$chr.phased.$start.$stop.imputed
+    -r $home/chr$chr/jia.uviitis.hg19.merge.QC.chr$chr.phased.$start.$stop.log \ ## log file
+    -o $home/chr$chr/jia.uviitis.hg19.merge.QC.chr$chr.phased.$start.$stop.imputed ## output
 
 ## Print the data and time
 date +"%m/%d/%Y %H:%M:%S"
