@@ -1,0 +1,23 @@
+## Perform inverse variance-weighted fixed effects meta-analysis
+SCHEME STDERR
+
+## Identify the column containing the standard error of the SNP
+STDERR SE
+
+## Turn off genomic control
+GENOMICCONTROL OFF
+
+## Compute the average frequency at each SNP
+AVERAGEFREQ ON
+
+## Let METAL know how the column names of the input are labeled.
+MARKERLABEL   SNP
+ALLELE	      A1 A2
+PVALUE	      P
+EFFECT	      EFFECT
+
+## Run the meta-analysis
+PROCESS ./jia.uviitis.hg19.phase1.QC.gwas.results.imputed.jia.uviitis.filtered.v2.txt
+PROCESS ./jia.uviitis.hg19.phase2.QC.gwas.results.imputed.jia.uviitis.filtered.v2.txt
+
+ANALYZE
