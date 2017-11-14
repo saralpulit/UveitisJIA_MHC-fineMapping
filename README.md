@@ -58,9 +58,21 @@ A bash script that will point Plink to the imputed data and run a genome-wide as
 Usage:   
 ```./run_gwas.sh chromosome phenotype window_start window_stop```
 
+#### SNP2HLA.csh
+A script for running the SNP2HLA imputation pipeline. Script authored by Xiaoming Jia
 
+Usage:  
+```./SNP2HLA.csh DATA (.bed/.bim/.fam) REFERENCE (.bgl.phased/.markers) OUTPUT plink {optional: java_max_memory[mb] marker_window_size}```
 
+DATA: bim/bed/fam files of your data   
+REFERENCE: your reference dataset (here, provided by the Type 1 Diabetes Genetics Consortium)   
+OUTPUT: name of your output files    
 
+#### run_imputeHLA.sh
+A bash script to run the HLA imputation.
+
+Uage:
+```./run_imputeHLA.sh input reference_data```
 
 
 
