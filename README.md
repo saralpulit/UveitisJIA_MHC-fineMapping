@@ -2,11 +2,26 @@
 
 Scripts and data used in analyses for "An amino acid motif in HLA-DRβ1 distinguishes patients with uveitis in juvenile idiopathic arthritis."
 
+This repository contains:
+
+## Data
+
 Summary-level datasets are available here:   
 Phase 1 genome-wide association summary-level results: https://doi.org/10.5281/zenodo.1048977   
 Phase 2 genome-wide association summary-level results: https://doi.org/10.5281/zenodo.1048979
 
-This repository contains:
+#### chromosome_windows.txt
+This text file can be useful for splitting up data into 5Mb windows or running imputation/GWAS in 5Mb chunks. The file contains:
+ 1. The chromosome number
+ 2. The starting position (in Mb) on that chromosome
+ 3. The ending position (in Mb) on that chromosome
+ 4. The total number of 5Mb chunks on that chromosome.
+
+#### metal.mhc.txt
+A parameters file to run a meta-analysis using METAL (https://genome.sph.umich.edu/wiki/METAL).
+
+Usage:   
+```/path/to/metal metal.mhc.txt```
 
 ## Scripts
 
@@ -43,20 +58,7 @@ A bash script that will point Plink to the imputed data and run a genome-wide as
 Usage:   
 ```./run_gwas.sh chromosome phenotype window_start window_stop```
 
-## Data
 
-#### chromosome_windows.txt
-This text file can be useful for splitting up data into 5Mb windows or running imputation/GWAS in 5Mb chunks. The file contains:
- 1. The chromosome number
- 2. The starting position (in Mb) on that chromosome
- 3. The ending position (in Mb) on that chromosome
- 4. The total number of 5Mb chunks on that chromosome.
-
-#### metal.mhc.txt
-A parameters file to run a meta-analysis using METAL (https://genome.sph.umich.edu/wiki/METAL).
-
-Usage:   
-```/path/to/metal metal.mhc.txt```
 
 
 
