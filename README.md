@@ -6,9 +6,20 @@ This repository contains:
 
 ## Data
 
-Summary-level datasets are available here:   
-Phase 1 genome-wide association summary-level results: https://doi.org/10.5281/zenodo.1048977   
-Phase 2 genome-wide association summary-level results: https://doi.org/10.5281/zenodo.1048979
+Summary-level datasets are available here: 
+ 
+ *Genome-wide data*
+ 1. Phase 1 genome-wide association summary-level results: https://doi.org/10.5281/zenodo.1048977   
+ 2. Phase 2 genome-wide association summary-level results: https://doi.org/10.5281/zenodo.1048979
+ 
+  *MHC-specific data*
+ 1. MHC-wide association results comparing uveitis-JIA cases to non-uveitis JIA samples: https://doi.org/10.5281/zenodo.1049020   
+ 2. MHC-wide association results (uveitis-JIA cases vs. non-uveitis JIA samples), conditioning on aspartic acid (D) at position 11 in HLA-DRB1:https://doi.org/10.5281/zenodo.1049023
+ 3. MHC-wide association results (uveitis-JIA cases vs. non-uveitis JIA samples), conditioning on serine (S) at position 11 in HLA-DRB1: https://doi.org/10.5281/zenodo.1049025
+ 
+   *MHC-specific data, split by sex*
+ 1. MHC-wide association results (uveitis-JIA cases vs. non-uveitis JIA samples) in *female samples only*: https://doi.org/10.5281/zenodo.1049027   
+ 2. MHC-wide association results (uveitis-JIA cases vs. non-uveitis JIA samples) in *male samples only*: https://doi.org/10.5281/zenodo.1049031
 
 #### chromosome_windows.txt
 This text file can be useful for splitting up data into 5Mb windows or running imputation/GWAS in 5Mb chunks. The file contains:
