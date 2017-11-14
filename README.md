@@ -1,6 +1,6 @@
 # MHC fine-mapping in juvenile idiopathic arthritis (JIA)-associated uveitis
 
-Scripts and data used in analyses for "An amino acid motif in HLA-DRβ1 distinguishes patients with uveitis in juvenile idiopathic arthritis."
+Scripts and data used in analyses for *"An amino acid motif in HLA-DRβ1 distinguishes patients with uveitis in juvenile idiopathic arthritis."*
 
 This repository contains:
 
