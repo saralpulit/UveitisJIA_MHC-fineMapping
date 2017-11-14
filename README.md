@@ -2,6 +2,10 @@
 
 Scripts and data used in analyses for "An amino acid motif in HLA-DRβ1 distinguishes patients with uveitis in juvenile idiopathic arthritis."
 
+Summary-level datasets are available here:
+Phase 1 genome-wide association summary-level results: https://doi.org/10.5281/zenodo.1048977
+Phase 2 genome-wide association summary-level results: https://doi.org/10.5281/zenodo.1048979
+
 This repository contains:
 
 ## Scripts
@@ -47,5 +51,14 @@ This text file can be useful for splitting up data into 5Mb windows or running i
  2. The starting position (in Mb) on that chromosome
  3. The ending position (in Mb) on that chromosome
  4. The total number of 5Mb chunks on that chromosome.
+
+#### metal.mhc.txt
+A parameters file to run a meta-analysis using METAL (https://genome.sph.umich.edu/wiki/METAL).
+
+Usage:   
+```/path/to/metal metal.mhc.txt```
+
+
+
 
 
