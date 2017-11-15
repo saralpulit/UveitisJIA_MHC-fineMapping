@@ -95,10 +95,13 @@ A bash script to run the HLA imputation.
 Uage:
 ```./run_imputeHLA.sh input reference_data```
 
-#### 9. uveitis.LRT.R
+#### 9. mhc.assoc.sh
+A script to run association testing (using PLINK) on the imputed MHC data
+
+#### 10. uveitis.LRT.R
 Code used for calculating likelihood ratio tests in the uveitis data (requires individual-level data)
 
-#### 10. uveitis.sexual-dimorphism.R
+#### 11. uveitis.sexual-dimorphism.R
 Code used for testing the interaction of sex and the HLA-DRB1 serine-11 genotype (requires individual-level data) and for plotting association results in male vs. female samples (requires summary-level data; please see above for links).
 
 
