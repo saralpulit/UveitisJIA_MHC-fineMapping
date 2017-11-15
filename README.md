@@ -6,7 +6,7 @@ This repository contains:
 
 ## Data
 
-Summary-level datasets are available here: 
+### Summary-level datasets are available here: 
  
  *Genome-wide data*
  1. Phase 1 genome-wide association summary-level results: https://doi.org/10.5281/zenodo.1048977   
@@ -20,6 +20,16 @@ Summary-level datasets are available here:
    *MHC-specific data, split by sex*
  1. MHC-wide association results (uveitis-JIA cases vs. non-uveitis JIA samples) in *female samples only*: https://doi.org/10.5281/zenodo.1049027   
  2. MHC-wide association results (uveitis-JIA cases vs. non-uveitis JIA samples) in *male samples only*: https://doi.org/10.5281/zenodo.1049031
+ 
+### Supplementary Tables
+
+#### SuppTable2.HLAAssociations.csv
+Supplementary Table 2 | Association results for HLA alleles with frequency >0.01 in JIA-uveitis cases versus JIA non-uveitis controls. For each amino acid, the frequency in cases and controls, the imputation-score (INFO; a score between 0 and 1, a higher value means a better imputation of that amino acid), odds ratio (OR), 95%-confidence interval (95%-CI) and p-values are given. 
+
+#### SuppTable4.ProteinsforBindingAffinity.csv
+Supplementary Table 4 | One-hundred and forty-seven proteins selected from iris tissue proteome data for peptide binding affinity prediction to common HLA-DRβ1 molecules. See Materials and Methods in the main article for methodological details. Mass spectrometric proteome data from human iris tissues (2,959 nonredundant proteins) was used as a representative source of proteins present in iris tissue. Protein accession numbers were extracted to filter in UniProt (Universal Protein Resource) for proteins with a subcellular location annotation limited to the nucleus. 147 proteins fulfilled these criteria and their full length amino acid sequences were fed into the neural network of the netMHCIIpan3.1 server.
+
+### Other supporting files
 
 #### chromosome_windows.txt
 This text file can be useful for splitting up data into 5Mb windows or running imputation/GWAS in 5Mb chunks. The file contains:
