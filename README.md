@@ -36,40 +36,40 @@ Usage:
 
 ## Scripts
 
-#### run_qc.sh
+#### 1. run_qc.sh    
 A bash script containing a series of Plink commands used to run sample and variant QC
 
-#### run_smartPCA.sh
+#### 2. run_smartPCA.sh
 Please see the Afib-Stroke-Overlap repository for this script. It uses EIGENSTRAT (https://www.hsph.harvard.edu/alkes-price/eigensoft-frequently-asked-questions/ to run principal component analysis (PCA) either using a reference set of data or just in your own samples.
 
 Usage:   
 ```./run_smartPCA.sh data_prefix```
 
-#### prephase.sh
+#### 3. prephase.sh
 A bash script to call SHAPEIT, which will phase your data before imputation.
 
 Usage:   
 ```./prephase.sh chromosome```
 
-#### impute.sh
+#### 4. impute.sh
 A bash script to call IMPUTE2, which will impute your phased data (produced by SHAPEIT)
 
 Usage:   
 ```./impute.sh chromosome window_start window_stop```
 
-#### impute.chrX.sh
+#### 5. impute.chrX.sh
 A bash script to call IMPUTE2, which will impute your phased data (produced by SHAPEIT) specifically for the X chromosome
 
 Usage:   
 ```./impute.sh chromosome window_start window_stop```
 
-#### run_gwas.sh
+#### 6. run_gwas.sh
 A bash script that will point Plink to the imputed data and run a genome-wide association study
 
 Usage:   
 ```./run_gwas.sh chromosome phenotype window_start window_stop```
 
-#### SNP2HLA.csh
+#### 7. SNP2HLA.csh
 A script for running the SNP2HLA imputation pipeline. Script authored by Xiaoming Jia
 
 Usage:  
@@ -79,11 +79,16 @@ DATA: bim/bed/fam files of your data
 REFERENCE: your reference dataset (here, provided by the Type 1 Diabetes Genetics Consortium)   
 OUTPUT: name of your output files    
 
-#### run_imputeHLA.sh
+#### 8. run_imputeHLA.sh
 A bash script to run the HLA imputation.
 
 Uage:
 ```./run_imputeHLA.sh input reference_data```
 
+#### 9. uveitis.LRT.R
+Code used for calculating likelihood ratio tests in the uveitis data (requires individual-level data)
+
+#### 10. uveitis.sexual-dimorphism.R
+Code used for testing the interaction of sex and the HLA-DRB1 serine-11 genotype (requires individual-level data) and for plotting association results in male vs. female samples (requires summary-level data; please see above for links).
 
 
