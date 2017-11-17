@@ -16,7 +16,9 @@ This repository contains:
  1. MHC-wide association results comparing uveitis-JIA cases to non-uveitis JIA samples: https://doi.org/10.5281/zenodo.1049020   
  2. MHC-wide association results (uveitis-JIA cases vs. non-uveitis JIA samples), conditioning on aspartic acid (D) at position 11 in HLA-DRB1:https://doi.org/10.5281/zenodo.1049023
  3. MHC-wide association results (uveitis-JIA cases vs. non-uveitis JIA samples), conditioning on serine (S) at position 11 in HLA-DRB1: https://doi.org/10.5281/zenodo.1049025
- 
+ 4. MHC-wide association results comparing all JIA cases versus disease-free controls: https://doi.org/10.5281/zenodo.1053793
+ 5. MHC-wide association results comparing uveitis-JIA cases versus disease-free controls: https://doi.org/10.5281/zenodo.1053797
+
    *MHC-specific data, split by sex*
  1. MHC-wide association results (uveitis-JIA cases vs. non-uveitis JIA samples) in *female samples only*: https://doi.org/10.5281/zenodo.1049027   
  2. MHC-wide association results (uveitis-JIA cases vs. non-uveitis JIA samples) in *male samples only*: https://doi.org/10.5281/zenodo.1049031
