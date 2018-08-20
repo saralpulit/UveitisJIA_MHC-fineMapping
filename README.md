@@ -1,6 +1,6 @@
 # MHC fine-mapping in juvenile idiopathic arthritis (JIA)-associated uveitis
 
-Scripts and data used in analyses for *"An amino acid motif in HLA-DRβ1 distinguishes patients with uveitis in juvenile idiopathic arthritis." (Preprint: https://www.biorxiv.org/content/early/2017/08/14/140954)*
+Scripts and data used in analyses for *"An amino acid motif in HLA-DRβ1 distinguishes patients with uveitis in juvenile idiopathic arthritis." (Preprint here: https://www.biorxiv.org/content/early/2017/08/14/140954 and article here: https://onlinelibrary.wiley.com/doi/pdf/10.1002/art.40484)*
 
 This repository contains:
 
@@ -9,8 +9,8 @@ This repository contains:
 ### Summary-level datasets are available here: 
  
  *Genome-wide data*
- 1. Phase 1 genome-wide association summary-level results: https://doi.org/10.5281/zenodo.1048977   
- 2. Phase 2 genome-wide association summary-level results: https://doi.org/10.5281/zenodo.1048979
+ 1. Phase 1 genome-wide association summary-level results (uveitis-JIA cases to non-uveitis JIA samples): https://doi.org/10.5281/zenodo.1048977   
+ 2. Phase 2 genome-wide association summary-level results (uveitis-JIA cases to non-uveitis JIA samples): https://doi.org/10.5281/zenodo.1048979
  
   *MHC-specific data*
  1. MHC-wide association results comparing uveitis-JIA cases to non-uveitis JIA samples: https://doi.org/10.5281/zenodo.1049020   
